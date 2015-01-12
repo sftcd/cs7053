@@ -1,0 +1,342 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html">
+  <title>Overview of CS7053 security.</title>
+</head>
+
+<body bgcolor="#fffedc">
+<h1>CS7053 security</h1>
+
+<p>This is the 2015 version. Last updated 20150112 by
+stephen.farrell@cs.tcd.ie.</p>
+<ul>
+  <li>The canonical URL for this stuff is: <a
+    href="https://down.dsg.cs.tcd.ie/cs7053/">https://down.dsg.cs.tcd.ie/cs7053/</a></li>
+  <li>This course was previously <a
+    href="https://down.dsg.cs.tcd.ie/cs7012/">CS7012</a> and before that <a
+    href="https://down.dsg.cs.tcd.ie/nds106u1/">NDS106</a> (the links are to
+    the old lectures etc.) The content overlaps a good bit.</li>
+  <li>The <a href="#Lecture">Lecture slides</a> section below has links to ppt
+    versions of all the lectures for the course. The <a
+    href="#materials">Materials</a> section below has links to local copies of
+    some of the background information/papers etc. For exam purposes, you won't
+    need anything else other than these and easily available things like RFCs. (You are
+    of course encouraged to read more widely).</li>
+  <li>You can look at some relevant <a
+    href="https://down.dsg.cs.tcd.ie/old-exams/index.html">old exams</a> with
+    both questions and answers/marking schemes.</li>
+  <li>There will be two assignments, totalling 20% of the marks for the module
+    (so the exam is worth 80%). </li>
+	<li>Note that I may be changing the slides as I go. Depending on stuff
+that's more than two weeks ahead of time may be wasted effort:-)</li>
+</ul>
+
+<h2><a name="Lecture" id="Lecture">Lecture</a> Slides</h2>
+<ol>
+  <li>General introduction (<a href="lectures/01-intro/01-intro.ppt">ppt</a>)</li>
+  <li>Security concepts (<a
+    href="lectures/02-concepts/02-concepts.ppt">ppt</a>)</li>
+  <li>Properties of cryptography algorithms (<a href="lectures/03-crypto/03-crypto.ppt">ppt</a>)
+<ul>
+  <li>Elliptic curves (Michael Clear) (<a href="lectures/mc-ecc/ecc.ppt">ppt</a>)</li>
+</ul>
+</li>
+  <li>Standard security protocols (<a href="lectures/04-protocols/04-protocols.ppt">ppt</a>)</li>
+  <li>Spam (<a href="lectures/05-spam/05-spam.ppt">ppt</a>)
+  		<ul><li> Jim Fenton's slides (<a href="lectures/05-spam/fenton.pdf">pdf</a>)</li></ul>
+ 	 </li>
+  <li>A large enterprise security infrastructure 
+(<a href="lectures/06-boeing/stw-TimeWarp-9.ppt">ppt</a>,
+<a href="lectures/06-boeing/stw-TimeWarp-9.pdf">pdf</a>)</li>
+  <li>Emergency response (<a href="lectures/07-cert/cert.ppt">ppt</a>)</li>
+  <li>Crypto Politics (<a href="lectures/08-politics/politics.ppt">ppt</a>)</li>
+  <li>XMLDSIG (<a href="lectures/09-xmlsig/xmlsig.ppt">ppt</a>)</li>
+  <li>Developing secure stuff (<a href="lectures/10-developing/developing.ppt">ppt</a>,
+  <a href="lectures/10-developing/developing.pdf">pdf</a>)</li>
+  <li>DNSSEC: <a href="lectures/11-dnssec/">Olaf Kolkman's slides</a>
+	from <a href="http://www.dns-school.org/Slides/index.html">"DNS School"</a></li>
+	<li>SHA-3 <a href="lectures/12-sha3/sha3-update.pdf">update</a></li>
+	<li><a href="lectures/13-problems/tls-problems.ppt">Fun with TLS</a>
+		<ul>
+			<li><a href="lectures/13-problems/ct.pdf">Certificate Transparancy</a></li>
+			<li><a href="lectures/13-problems/slides-85-saag-1.pdf">BEAST and CRIME</a></li>
+		</ul></li>
+	
+	<li><a href="lectures/14-snowdonia/snodonia-april14.ppt">Snowdonia</a></li>
+	<li><a href="lectures/mc-dmz/dmz.ppt">Firewalls and IDSs (Michael Clear)</a></li>
+</ol>
+
+<h2><a name="materials">Materials</a></h2>
+<p>These are worth a read. Don't worry too much if you don't get every last detail.</p>
+<ul>
+  <li><a href="materials/2013-java-0day.pdf">2013 Java 0-day</a></li>
+  <li><a href="materials/non-browser-ssl-shmat_ccs12.pdf">Non-browser SSL implementations not so good</a></li>
+  <li><a href="materials/outages_censorship.pdf">2011 Country level Internet outages</a></li>
+  <li><a href="materials/WhyFromNigeria.pdf">Why spammers claim to be from Nigeria</a></li>
+  <li><a href="materials/flame-md5.pdf">Flame MD5 exploit</a></li>
+  <li><a href="materials/websso-final.pdf">Web SSO study</a></li>
+  <li><a href="materials/ssl-mitm-dell-secureworks-article.pdf">SSL Man-in-the-middle article</a></li>
+  <li><a href="materials/lenstra-common-factors.064.pdf">Common factors in RSA keys</a></li>
+  <li><a href="materials/cars-usenixsec2011.pdf">Breaking in to cars</a></li>
+  <li><a href="materials/spafford88internet.pdf">The 1988 Internet worm</a></li>
+  <li><a href="materials/w32_stuxnet_dossier.pdf">Stuxnet</a></li>
+<li><a href="materials/ssl_jun21.pdf">The BEAST attack on SSl/TLS1.0</a></li>
+  <li><a href="materials/hooktonfoniks.pdf">Variable rate codec breakage</a></li>
+  <li><a href="materials/linux-root-vuln.pdf">Memory management vulnerabilities in Xorg</a></li>
+  <li><a href="materials/viehboeck_wps.pdf">WPS brute-force attack</a></li>
+  <li><a href="materials/gummy.htm">Gummy Fingers</a></li>
+  <li><a href="materials/rsa-768-broken.pdf">RSA-768 factored</a></li>
+<li><a href="materials/raluca-cryptdb.pdf">Encrypted query processing</a></li>
+  <li><a href="materials/WP_Consumer_Password_Worst_Practices.pdf">Password policy bad experience.</a></li>
+  <li><a href="materials/sonda-TR.pdf">Privacy breach via SN groups.</a></li>
+  <li>A <a href="materials/prng-vulnerability-of-z-stack-zigbee.html">description</a> of a random number seeding vulnerability.
+  <a href="http://travisgoodspeed.blogspot.com/2009/12/prng-vulnerability-of-z-stack-zigbee.html">(original, external page)</a> </li>
+  <li>The Bleichenbacher attack on SSL/TLS (aka "million message" attack) [
+  <a href="materials/bleichenbacher-pkcs.pdf">pdf</a>,
+  <a href="materials/bleichenbacher-pkcs.ps">ps</a>,
+  <a href="materials/bleichenbacher-pkcs.ppt">ppt</a>]</li>
+  <li>DNSSEC - overview (<a href="materials/June3_DNSSEC.pdf">pdf</a>) 
+  	<ul><li>A skeptic's position (<a href="materials/djb.pdf">pdf</a>)</li></ul>
+  </li>
+  <li><a href="materials/darknet5.doc">Darknet paper (ms-word)</a></li>
+  <li><a href="materials/Content%20is%20Not%20King.html">Content is Not King</a></li>
+  <li><a href="Nikiforakis.pdf">Exposing the Lack of Privacy in File Hosting Services</a></li>
+</ul>
+
+
+<p>Old stuff that links to 2009 web pages - feel free to ignore stuff below here if you like.</p>
+<ul>
+  <li><a
+    href="http://down.dsg.cs.tcd.ie/cs7012/materials/AuthenticationinDistributedSystemsTheoryandPractice.pdf">Authentication
+    in Distributed Systems: Theory and Practice</a></li>
+  <li><a href="http://down.dsg.cs.tcd.ie/cs7012/materials/secure_comp_math.pdf">Secure Computer Systems:
+    Mathematical Foundations</a></li>
+  <li><a href="http://down.dsg.cs.tcd.ie/cs7012/materials/22Diffie.pdf">A Whit Diffie paper dealing with the
+    history of (mainly US) crypto export issues</a></li>
+  <li><a href="http://down.dsg.cs.tcd.ie/cs7012/materials/rijndael.pdf">A full description of Rijndael (the AES
+    winning algorithm)</a></li>
+  <li><a href="http://down.dsg.cs.tcd.ie/cs7012/materials/draft-orman-public-key-lengths-05.txt">Determining
+    Strengths For Public Keys</a></li>
+  <li><a href="http://down.dsg.cs.tcd.ie/cs7012/materials/x509guide.txt">Peter Gutmann's X.509 Style Guide</a>
+    (<a
+    href="http://www.cs.auckland.ac.nz/~pgut001/pubs/x509guide.txt">original
+    location</a>)</li>
+  <li><a href="http://down.dsg.cs.tcd.ie/cs7012/materials/Overview-of-802-11-Security.ppt">Overview of 802.11
+    security (ppt)</a></li>
+  <li><a href="http://down.dsg.cs.tcd.ie/cs7012/materials/cert-cc-overview.pdf">Overview of CERT/CC</a></li>
+  <li><a href="http://down.dsg.cs.tcd.ie/cs7012/materials/CA-2003-04.html">A CERT Advisory: CERT CA-2003-04
+    MS-SQL Server Worm</a></li>
+  <li>CERT statistics <a href="http://down.dsg.cs.tcd.ie/cs7012/materials/cert_stats.html">web page</a> (copied
+    from <a href="http://www.cert.org/stats/cert_stats.html">here</a>
+  20040212)</li>
+  <li><a href="http://down.dsg.cs.tcd.ie/cs7012/materials/bleichenbacher-pkcs.ppt">Bleichenbacher's million
+    message attack on PKCS#1 (ppt</a>; <a
+    href="http://down.dsg.cs.tcd.ie/cs7012/materials/bleichenbacher-pkcs.ps">ps</a>; <a
+    href="http://down.dsg.cs.tcd.ie/cs7012/materials/bleichenbacher-pkcs.pdf">pdf</a>)</li>
+  <li><a href="http://down.dsg.cs.tcd.ie/cs7012/materials/rfc3218.txt">Preventing the Million Message
+  Attack</a></li>
+  <li><a href="http://down.dsg.cs.tcd.ie/cs7012/materials/draft-ietf-ipsec-ikev2-04.txt">IKE version 2
+    (draft)</a></li>
+  <li><a href="http://down.dsg.cs.tcd.ie/cs7012/materials/darknet5.doc">Darknet paper (ms-word)</a></li>
+  <li><a href="http://down.dsg.cs.tcd.ie/cs7012/materials/Content is Not King.html">Content is not king</a></li>
+  <li><a href="http://down.dsg.cs.tcd.ie/cs7012/materials/gsm_crypto_design_evaluation_report.pdf">A document
+    from the GSM Association describing (with design information) their use of
+    cryptography</a></li>
+  <li><a href="http://down.dsg.cs.tcd.ie/cs7012/materials/a5break.pdf">The GSM "A5" algorithm broken.</a></li>
+  <li>A <a href="http://down.dsg.cs.tcd.ie/cs7012/materials/prod_securepay.asp.html">page</a> (original <a
+    href="http://www.element.be/products/prod_securepay.asp">site</a>) with a
+    nice 3D SSL payments diagram (in various bits:-()</li>
+  <li>An early draft of a document describing <a
+    href="http://down.dsg.cs.tcd.ie/cs7012/materials/tr36-1.html">Unicode security considerations</a> (<a
+    href="http://www.unicode.org/reports/tr36/tr36-1.html">original
+  URL</a>)</li>
+  <li>A good <a href="http://down.dsg.cs.tcd.ie/cs7012/materials/moore02codered.pdf">paper (PDF)</a> describing
+    the CodeRed exploit and its effects</li>
+  <li>A nice <a href="http://down.dsg.cs.tcd.ie/cs7012/materials/dimacs.pdf">presentation (in PDF) by Eric
+    Rescorla</a> about the impact of real and potential cryptographic mechanism
+    weaknesses on real protocols</li>
+  <li>How to write security considerations in RFCs (itself an RFC - <a
+    href="http://down.dsg.cs.tcd.ie/cs7012/materials/rfc3552.txt">local copy</a>, <a
+    href="http://www.ietf.org/rfc/rcc3552.txt">web copy</a>)</li>
+  <li>Bernstein's paper on timing attacks on AES (<a
+    href="http://down.dsg.cs.tcd.ie/cs7012/materials/BernsteinCachetimingAES.pdf">local pdf</a>)</li>
+  <li>Percival's paper on L1 cache missing timing attacks (<a
+    href="http://down.dsg.cs.tcd.ie/cs7012/materials/PercivalL1CacheMissing.pdf">local pdf</a>)</li>
+  <li>(An external link for now - fix later.)
+    http://www.win.tue.nl/hashclash/TargetCollidingCertificates/</li>
+
+</ul>
+
+<p></p>
+
+<table border="0">
+  <tbody>
+    <tr>
+      <td valign="top"><b>Books</b></td>
+      <td>Recommended reading:<br>
+
+        <ol>
+          <li>"Network Security - PRIVATE Communication in a PUBLIC World",
+            Second edition, Kaufman, Perlman, Speciner, <i>Prentice Hall,
+            2002</i>.</li>
+        </ol>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td colspan="3"><br>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top"><b>Papers</b></td>
+      <td><ol>
+          <li><a name="1">"Trusted Computer Systems Evaluation Criteria (the
+            Orange Book)".<i>Department of Defence, 1985.</i></a></li>
+          <li><a name="2">"Information Technology Security Evaluation
+            Criteria".</a><i>European Comunities, June 1991.</i></li>
+          <li><a name="3">"The Common Criteria for Information Technology
+            Security Evaluation (CC) version 2.1", ISO
+            JTC1/SC27/WG3.</a><i>International Standard (IS) 15408, December
+            1999.</i></li>
+          <li><a name="4">"Formal Models for Computer Security", Carl E.
+            Landwehr. In</a><i>Computing Surveys, Vol. 13, No. 3, September
+            1981, pp. 247-278.</i></li>
+          <li><a name="5">"Design of an Authentication System, a Dialogue in
+            four Scenes",</a></li>
+          <li><a name="6">"Authentication in Distributed Systems: Theory and
+            Practice", Butler Lampson, Mart&iacute;n Abadi, Michael Burrows and
+            Edward Wobber. In </a><i>ACM Transactions on Computer Systems, Vol.
+            10, No. 4, November 1992, pp 265-310.</i></li>
+          <li><a name="7">"Secure Computer Systems: Mathematical Foundations",
+            D. Elliot Bell and Leonard J. LaPadula.</a><i>MITRE Technical
+            Report 2547, Volumes I-II, The MITRE Corporation, March
+          1973.</i></li>
+          <li><a name="8">"A Lattice Model of Secure Information Flow", Dorothy
+            E. Denning. In</a><i>Communications of the ACM, Vol. 19, No. 5, May
+            1976, pp. 236-243.</i></li>
+          <li><a name="9">"Lattice-Based Access Control Models", Ravi S.
+            Sandhu. In</a><i>IEEE Computer, Vol. 26, No. 11, November 1993, pp.
+            9-19.</i></li>
+          <li><a name="10">"Role-Based Access Control", David Ferraiolo and
+            Richard Kuhn. In</a><i>Proceedings of 15th National Computer
+            Security Conference, 1992.</i></li>
+          <li><a name="11">"Protection and the Contro of Information Sharing in
+            Multics", Jerome H. Saltzer.</a><i>Communications of the ACM, Vol.
+            17, No. 7, July 1974, pp. 388-402.</i><br>
+            <i>(There is a better paper descripting the protection rings, but
+            this paper also describes the use of ACLs.</i></li>
+          <li><a name="12"><i>I am currently considering what text on Unix
+            security to use - go find one yourself:-)</i></a></li>
+          <li><a
+            name="13"><i>http://msdn.microsoft.com/library/default.asp?url=/library/en-us/security/security/access_control.asp.</i></a></li>
+          <li><a name="14">"Protection", Butler W. Lampson. In "Proceedings of
+            5th Princeton Symposium on Information Sciences and Systems,
+            Princeton University, March 1971, pp. 437-443, reprinted in
+            Operating Systems Review, Vol. 8, No. 1, January 1974, pp.
+            18-24.</a></li>
+          <li><a name="15">"Protection in the Grasshopper Operating System",
+            Alan Dearle, Rex di Bona, James Farrow, Frans Henskens, David
+            Hulse, Anders Lindstr&amp;otrema;m, Stephen Norris, John Rosenberg
+            and Francis Vaughan.</a></li>
+          <li><a name="16">"Using Sparse Capabilities in a Distributed
+            Operating System", Andrew S. Tanenbaum, Sape J. Mullender and
+            Robert van Renesse. In</a><i>Proceedings of 6th International
+            Conference in Distributed Computing Systems, Cambridge MA, June
+            1986, pp. 558-563.</i></li>
+          <li><a name="17">"Why Cryptosystems Fail", Ross Anderson.
+            In</a><i>1st Conf.- Computer and Comm. Security '93, VA, USA,
+            November 1993, pp. 217--227.</i></li>
+          <li><a name="18">"PGP"</a><i>I am currently considering what text on
+            PGP to use.</i></li>
+          <li><a name="19">"Possible Economic Consequences of Digital Cash",
+            Tatsuo Tanaka. In First Monday, Vol 1, No 2, August 1996.<br>
+            </a><a
+            href="http://www.firstmonday.org/issues/issue2/digital_cash/index.html">http://www.firstmonday.org/issues/issue2/digital_cash/index.html</a>.</li>
+          <li><a name="20">"SET" <i>I am currently considering what text on SET
+            to use.</i></a></li>
+          <li><a name="21">"eCash"</a><i>I am currently considering what text
+            on eCash to use.</i></li>
+          <li><a name="22">"The MilliCent Protocols For Electronic Commerce",
+            Mark S. Manasse. Published from the proceedings of the 1st USENIX
+            workshop on Electronic Commerce, July 1995.<br>
+            </a><a
+            href="http://www.millicent.com/works/details/papers/mcentny.htm">http://www.millicent.com/works/details/papers/mcentny.htm</a>.</li>
+          <li><a name="23">Empty</a></li>
+          <li><a name="24">"Information Technology - Opens Systems
+            Interconnection - The Directory: Authentication Framework",
+            Telecommunication Standardization Sector of ITU. In</a><i>ITU--T
+            Recomandation, X.509, International Telecomunication Union,
+            1993.</i></li>
+          <li><a name="25">"SPKI Certificate Theory", IETF. RFC 2693.</a></li>
+          <li><a name="26">"Distributed Access-Rights Management with
+            Delegation Certificates", Tuomas Aura. In "Secure Internet
+            Programming", Springer Verlag LNCS 1603, Berlin 1999, pp.
+            211-236.</a></li>
+          <li><a name="27">"Robust Programming", Matt Bishop. Handout for ECS
+            153, Introduction to Computer Security, Department of Computer
+            Science, University of California at Davis, Davis, CA
+            95616-8562.</a></li>
+          <li><a name="28">"How To Write A Setuid Program", Matt Bishop.
+            In</a><i>;login:, Vol. 12, No. 1, Jan/Feb 1987, pp. 5-11.</i></li>
+          <li><a name="29">"An analysis of the internet worm", Eugene H.
+            Spafford. In</a><i>Proceedings of the 2nd European Software
+            Engineering Conference, Springer Verlag LNCS 387, September 1989,
+            pages 446-468.</i></li>
+          <li><i><a name="30">"StackGuard: Automatic Adaptive Detection and
+            Prevention of Buffer-Overflow Attacks", Proceedings of the 7th
+            USENIX Security Conference.</a></i></li>
+          <li><i><a name="31">"Java Security", J. Steven Fritzinger, Marianne
+            Mueller.</a><i>Javasoft whitepaper,</i><br>
+            </i> &lt;
+            t&gt;<i>http://www.javasoft.com/security/whitepaper.ps</i> </t></li>
+          <li><i><a name="32"><i>Java 1.2 protection domains
+          paper.</i></a></i></li>
+          <li><i><a name="33">"A Note on the Confinement Problem", Butler W.
+            Lampson. In</a><i>Communications of the ACM, Vol. 16, No. 10,
+            October 1973, pp. 613-615.</i></i></li>
+          <li><i><a name="34">"Efficient Software-Based Fault Isolation",
+            Robert Wahbe, Steven Lucco, Thomas E. Anderson and Susan L. Graham.
+            In</a><i>Proceedings of the 14th ACM Symposium on Operating Systems
+            Principles, Asheville NC, December 1993, pp. 203-216.</i></i></li>
+          <li><i><i><a name="35">"A Secure Environment for Untrusted Helper
+            Applications", Ian Goldberg, David Wagner, Randi Thomas and Eric A.
+            Brewer. in</a><i>Proceedings of the 6th USENIX Security Symposium,
+            pp.1-13.</i></i></i></li>
+          <li><i><i><a name="36">"Life without Root", Steve Simmons.
+            In</a><i>Proceedings of LISA IV, Colorado Springs Co, October 1990,
+            pp. 89-92.</i></i></i></li>
+          <li><i><i><a name="37">"Flexible control of downloaded executable
+            content", Trent Jaeger, Atul Prakash, Jochen Liedtke and Nayeem
+            Islam. In</a><i>ACM Transactions on Information and System
+            Security, Vol. 2, No. 2, May 1999, pp. 177-228.</i></i></i></li>
+          <li><i><i><a name="38">"Abstractions for Mobile Computations", Luca
+            Cardelli. In</a><i>Secure Internet Programming, Springer Verlag
+            LNCS 1603, Berlin 1999, pp. 51-94.</i></i></i></li>
+          <li><i><i><a name="39">"Reflections on Trusting Trust, Ken Thompson.
+            In</a><i>Communications of the ACM, Vol. 27, No. 8, August 1984,
+            pp. 761-763.</i></i></i></li>
+          <li><i><i><a name="40">"Trust: Benefits, Models, and mechanisms",
+            Vipin Swarup and Javier Thayer Fabrega. In</a><i>Secure Internet
+            Programming, Springer Verlag LNCS 1603, Berlin 1999, pp.
+            3-18.</i></i></i></li>
+          <li><i><i><a name="41">"Trust in Electronic Markets", Joseph M.
+            Reagle, Jr. In First Monday, Vol. 1, No. 2, August 1996.<br>
+            </a><a
+            href="http://www.firstmonday.org/issues/issue2/markets/index.html">http://www.firstmonday.org/issues/issue2/markets/index.html</a>.</i></i></li>
+          <li><i><i><a name="42">"Crowds: Anonymity for Web Transactions",
+            Michael K. Reiter and Aviel D. Rubin. In <i>ACM Transactions on
+            Information and System Security</i>, Vol.1, No.1, November 1998,
+            pp. 66-92.</a></i></i></li>
+        </ol>
+        <i><a name="42"></a></i><i><a name="42"></a></i></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+<hr>
+<address>
+  <a href="http://www.cs.tcd.ie/Stephen.Farrell">Stephen Farrell</a> 
+</address>
+Last modified: 20030102 17:23</body>
+</html>
