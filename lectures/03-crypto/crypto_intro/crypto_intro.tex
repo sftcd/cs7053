@@ -1,4 +1,4 @@
-% Created 2015-02-04 Wed 12:34
+% Created 2015-02-04 Wed 13:50
 \documentclass[presentation]{beamer}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -127,10 +127,10 @@
 \item Then 
 \begin{equation*}
 H(M) = H(M \mid C)
-\end{equation*} where $H(M | C)$ the \emph{conditional entropy} of $M$ given a ciphertext from $C$.
+\end{equation*} where $H(M | C)$ is the \emph{conditional entropy} of $M$ given a ciphertext from $C$.
 \item Put another way, for all plaintexts $m \in M$ and all ciphertexts $c \in C$, we have
 \begin{equation*}
- \fname{Pr}(x) = \fname{Pr}(m \mid c)
+ \fname{Pr}(m) = \fname{Pr}(m \mid c)
 \end{equation*}
 \end{itemize}
 \end{itemize}
@@ -207,7 +207,7 @@ H(M) = H(M \mid C)
 \begin{itemize}
 \item Let $k$ be a keyword such as "BLAZE", with $n = 5$ letters.
 \item Let $k_i$ denote the numeric value (modulo 26) of the $i$-th letter of the keyword $k$.
-\item The $i$-th letter of plaintext $m_i$ is encrypted as $c_i = m_i + k_{i \pmod{\fname{length of the key}}} \pmod{26}$ (when represented modulo $26$)
+\item The $i$-th letter of plaintext $m_i$ is encrypted as $c_i = m_i + k_{i \pmod{n}} \pmod{26}$ (when represented modulo $26$)
 \end{itemize}
 \item Encrypting the text "HELLO" with keyword "BLAZE" yields the ciphertext "IPLKS".
 \end{itemize}

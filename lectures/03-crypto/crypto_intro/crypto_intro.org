@@ -75,10 +75,10 @@
   - Then 
    \begin{equation*}
    H(M) = H(M \mid C)
-   \end{equation*} where $H(M | C)$ the \emph{conditional entropy} of $M$ given a ciphertext from $C$.
+   \end{equation*} where $H(M | C)$ is the \emph{conditional entropy} of $M$ given a ciphertext from $C$.
   - Put another way, for all plaintexts $m \in M$ and all ciphertexts $c \in C$, we have
    \begin{equation*}
-    \fname{Pr}(x) = \fname{Pr}(m \mid c)
+    \fname{Pr}(m) = \fname{Pr}(m \mid c)
    \end{equation*}
 * One-time Pad
    #+ATTR_BEAMER: :overlay +-
@@ -131,7 +131,7 @@
 - Works as follows:
     - Let $k$ be a keyword such as "BLAZE", with $n = 5$ letters.
     - Let $k_i$ denote the numeric value (modulo 26) of the $i$-th letter of the keyword $k$.
-    - The $i$-th letter of plaintext $m_i$ is encrypted as $c_i = m_i + k_{i \pmod{\fname{length of the key}}} \pmod{26}$ (when represented modulo $26$)
+    - The $i$-th letter of plaintext $m_i$ is encrypted as $c_i = m_i + k_{i \pmod{n}} \pmod{26}$ (when represented modulo $26$)
 - Encrypting the text "HELLO" with keyword "BLAZE" yields the ciphertext "IPLKS".
 * Viginère Cipher - Tabula Recta
 \includegraphics[scale=0.45]{tabula_recta.png}
