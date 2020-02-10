@@ -1,0 +1,202 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html">
+  <title>CS7NS5/CSU44032 Security and Privacy</title>
+</head>
+
+<body bgcolor="#fffedc">
+<h1>CS7NS5/CSU44032 Security and Privacy</h1>
+
+<p>This is the 2020 version. Last updated 20200205 by stephen.farrell@cs.tcd.ie</p> 
+<ul>
+  <li>The canonical URL for this stuff is: <a
+    href="https://down.dsg.cs.tcd.ie/cs7053/">https://down.dsg.cs.tcd.ie/cs7053/</a>
+    and the latest source is in a github repo at <a href="https://github.com/sftcd/cs7053">https://github.com/sftcd/cs7053</a></li>
+  <li>Over the years, this course has had lots of course codes, it was also previously 
+	CS4407, CS7453 and CS7074,
+	 and before that 
+	<a href="https://down.dsg.cs.tcd.ie/cs7012/">CS7012</a> and before that 
+	<a href="https://down.dsg.cs.tcd.ie/nds106u1/">NDS106</a> (the last two links are to
+    the old lectures etc.) But when I created the github repo it was CS7053, so I stick with that for the URLs:-) The content overlaps a good bit but always evolves.</li>
+  <li>The <a href="#Lecture">Lecture slides</a> section below has links to ppt/pdf 
+    versions of all the lectures for the course. The PDFs should be fine as there're
+    no fancy PPT features used.</li>
+  <li>The 
+	<a href="#materials">Materials</a> section below has links to, and/or local copies of,
+    some background information/papers etc. For exam purposes, you won't
+    need anything else other than 
+    easily available things like RFCs
+    and the materials below that are mentioned in class 
+    (You are
+    of course encouraged to read more widely).</li>
+  <li>You can look at loads of <a href="https://down.dsg.cs.tcd.ie/old-exams/index.html">old exams</a> with
+    both questions and answers/marking schemes.</li>
+  <li>There will be two assignments, totalling 20% of the marks for the module
+    (so the exam is worth 80%). </li>
+	<li>Note that I <strong>will</strong> be changing the slides as I go. Depending on stuff
+that's more than two weeks ahead of time may be wasted effort:-)</li>
+</ul>
+
+<h2>Lecture Slides</h2>
+<ol>
+  <li>Quick intro/logistics (<a href="lectures/00-quick-intro.ppt">ppt</a>,<a href="lectures/00-quick-intro.pdf">pdf</a>)</li>
+  <li>Some history and issues (from heanet talk) (<a href="lectures/heanet-farrell.odp">O-O</a>, <a href="lectures/heanet-farrell.pdf">PDF</a>)</li>
+  <li>General intro (<a href="lectures/01-intro.ppt">ppt</a>,<a href="lectures/01-intro.pdf">pdf</a>)</li>
+  <li>Concepts (<a href="lectures/02-concepts.ppt">ppt</a>,<a href="lectures/02-concepts.pdf">pdf</a>)</li>
+  <li>Crypto stuff (<a href="lectures/03-crypto.ppt">ppt</a>,<a href="lectures/03-crypto.pdf">pdf</a>)</li>
+  <li>Post-quantum stuff: <a href="https://csrc.nist.gov/CSRC/media/Presentations/the-2nd-round-of-the-nist-pqc-standardization-proc/images-media/moody-opening-remarks.pdf">NIST slides</a> (<a href="lectures/moody-opening-remarks.pdf">local copy</a>)</li>
+
+  <br/><p>Above are updated for 2020, below are not yet.</p><br/>
+  <li>Spam (<a href="lectures/04-spam.ppt">ppt</a>,<a href="lectures/04-spam.pdf">pdf</a>)
+	<ul>
+		<li>Jim Fenton's spam slides (<a href="lectures/fenton.pdf">pdf</a>)</li>
+		<li>Murray Kucheraway's DMARC slides (<a href="lectures/slides-87-dmarc-3.pdf">pdf</a>)</li>
+	</ul>
+  </li>
+  <br/>
+  <li>Standard security protocols (<a href="lectures/06-protocols.ppt">ppt</a>,<a href="lectures/06-protocols.pdf">pdf</a>)</li>
+  <li>Loads more on TLS:
+		<ul>
+  			<li>TLSv1.2 details (<a href="lectures/07-tls-details.ppt">ppt</a>,<a href="lectures/07-tls-details.pdf">pdf</a>)
+  			<li>Problems with real-world TLS (<a href="lectures/07-tls-problems.ppt">ppt</a>,<a href="lectures/07-tls-problems.pdf">pdf</a>)</li>
+					<li>SAAG presentation on BEAST and CRIME (<a href="https://www.ietf.org/proceedings/85/slides/slides-85-saag-1.pdf">ietf site</a>,<a href="materials/slides-85-saag-1.pdf">local</a>)</li>
+  			<li>TLSv1.3 (<a href="lectures/07-tls13.ppt">ppt</a>,<a href="lectures/07-tls13.pdf">pdf</a>)
+  			<li>As background: a 2017 look at TLS1.3, from 33C3 <a href="lectures/CCC_TLS_1.3_copy.pdf">slides</a> (<a href="https://speakerd.s3.amazonaws.com/presentations/53e226b000e24ffb90c1de816aecd4ca/CCC_TLS_1.3_copy.pdf">original</a>, <a href="https://media.ccc.de/v/33c3-8348-deploying_tls_1_3_the_great_the_good_and_the_bad">video</a>) from Nick Sullivan and Filippo Valsorda</li> 
+		</ul>
+  </li>
+
+  <br/>
+
+  <li>DNS (<a href="lectures/10-dns.pdf">PDF</a>,<a href="lectures/10-dns.ppt">PPT</a>) 
+	<ul>Materials used from <a href="http://www.dns-school.org/Slides/index.html">Olaf Kolkman's DNS school</a>
+  		<li>DNS (<a href="lectures/Block_01_introduction_alternative.pdf">pdf</a>)</li>
+  		<li>DNSSEC (<a href="lectures/Block_03_DNSSEC_Theory.pdf">pdf</a>)</li>
+	</ul>
+  </li>
+</ol>
+
+
+<p>Probably won't cover these this year:</p>
+
+  <ul>
+  <li>Snowdonia (<a href="lectures/08-snowdonia.ppt">ppt</a>, <a href="lectures/08-snowdonia.pdf">pdf</a>)</li>
+  <li>Developing stuff with security in mind (<a href="lectures/07.5-developing.ppt">ppt</a>,
+  	<a href="lectures/07.5-developing.pdf">pdf</a>)</li>
+
+  <li>Phil Hunt (Oracle) OAuth intro (<a href="lectures/09-oauth.ppt">ppt</a>)</li>
+
+  </ul>
+
+
+<h2><a name="stories">News Stories</a></h2>
+
+<ul>
+
+    <li>Jan 2020 Msft x.509 vuln (CVE-2020-0601) - dodgy x.509 handling of custom ECC params:
+        <ul>
+            <li><a href="https://media.defense.gov/2020/Jan/14/2002234275/-1/-1/0/CSA-WINDOWS-10-CRYPT-LIB-20190114.PDF">NSA advisory</a></li>
+            <li><a href="https://blog.trailofbits.com/2020/01/16/exploiting-the-windows-cryptoapi-vulnerability/">trailofbits explainer</a></li>
+            <li><a href="https://research.kudelskisecurity.com/2020/01/15/cve-2020-0601-the-chainoffools-attack-explained-with-poc/">proof of concept exploit</a></li>
+        </ul>
+    </li>
+    <li>Yet another <a href="https://fil.forbrukerradet.no/wp-content/uploads/2020/01/2020-01-14-out-of-control-final-version.pdf">report</a>
+        (<a href="materials/2020-01-14-out-of-control-final-version.pdf">local copy</a>), Norwegian this time,
+        about advertising-driven surveillance.</li>
+
+    <li>MITRE common weakness enumeration 
+        <a href="https://cwe.mitre.org/top25/archive/2019/2019_cwe_top25.html">list</a> of bug precursors.</li>
+    <li>A lovely <a
+    href="https://docs.fcc.gov/public/attachments/DOC-359134A1.pdf">FCC
+    report</a> on a 37-hour CenturyLink (aka level3) US nationwide outage caused by 4
+    weirdo packets!</li>
+
+    <li><a href="https://www.vpnmentor.com/blog/report-biostar2-leak/">Biometric DB leak,</a></li>
+
+    <li><a href="https://krebsonsecurity.com/2019/02/a-deep-dive-on-the-recent-widespread-dns-hijacking-attacks/">Krebs</a> 
+        article on DNS infrastructure attack that's close to home actually!</li>
+    <li><a
+            href="https://www.zdnet.com/article/unsecured-mongodb-databases-expose-kremlins-backdoor-into-russian-businesses/">ZDnet
+            story</a> on Russian govt special access via same username/pwd on
+    many systems</li>
+
+		<li>Merging images of people in <a href="https://motherboard.vice.com/en_us/article/pa9vyb/peng-collective-artists-hack-german-passport">passports</a></li>
+		<li>Who's a good IdP? We thought the megascalers might be but... <a href="https://arstechnica.com/tech-policy/2018/10/google-exposed-non-public-data-for-500k-users-then-kept-it-quiet/">google</a> and <a href="https://www.thesslstore.com/blog/facebook-data-leak-cambridge-analytica/">facebook</a> both recently mucked up somewhat, at mega-scale of course;-( 
+		</li>
+		<li><a href="https://www.zdnet.com/article/french-police-officer-caught-selling-confidential-police-data-on-the-dark-web/">ZDnet</a>
+				story about French police officer selling access to police/national security data on the dark web.</li>
+
+		<li>A <a href="https://www.theregister.co.uk/2018/10/08/super_micro_us_uk_intelligence/">disputed</a> Bloomberg story claiming the Chinese gov. were <a href="https://www.bloomberg.com/news/features/2018-10-04/the-big-hack-how-china-used-a-tiny-chip-to-infiltrate-america-s-top-companies">board stuffing</a> in an interesting manner. Regardless of the veracity or otherwise of this report the security of the supply chain issue 
+	highlights the need for much more/better open-source hardware. (I'm involved a bit with one such <a href="https://cryptech.is">effort</a>.</li>
+
+<li><a href="https://www.theregister.co.uk/2018/09/25/cisco_hardcoded_credentials/">Cisco</a> hardcoded root a/c in video kit.</li>
+<li>Nice <a href="https://www.theregister.co.uk/2018/09/12/feedify_magecart_javascript_library_hacked/">el reg</a>
+				story (if true!) about borked JS code being loaded from a 3rd (or 4th, if true) party.</li>
+<li> An <a href="https://www.theregister.co.uk/2018/08/09/neural_network_malware/">El-reg article</a> with a cute idea
+				for how to construct malware (add DeepLocker reference when available) </li>
+
+</ul>
+
+
+<h2><a name="materials">Materials</a></h2>
+
+<p>This is a list of good things to read. What you need for 
+exam purposes is all mentioned in the lecture slides.
+The full directory is <a href="materials/">here</a> if you
+just want to browse it.</p>
+
+<ol>
+    <li><a href="https://arxiv.org/pdf/2001.07421.pdf">Google paper</a> (<a href="materials/2001.07421.pdf">local copy</a>) on issues with 
+        Apple's intelligent tracking protection and how it could be used to track someone</li>
+    <li><a href="https://www.greenbone.net/wp-content/uploads/Greenbone_Security_Report_Unprotected_Patient_Data_a_Review.pdf">Report on publicly accessible medical images</a>(<a href="materials/https://www.greenbone.net/wp-content/uploads/Greenbone_Security_Report_Unprotected_Patient_Data_a_Review.pdf">local copy</a>)</li>
+    <li><a href="https://eprint.iacr.org/2020/014">SHA-1 is a shambles</a> (<a href="materials/2020-014.pdf">local copy</a>)
+        describes now-practical chosen prefix attacks on sha-1.</li>
+    <li>Johnny is fired (<a href="https://github.com/RUB-NDS/Johnny-You-Are-Fired">github</a>,<a href="materials/johnny-fired.pdf">local pdf</a>)</li>
+    <li>A paper on guessed Etherium private keys (need to read) <a href=https://www.securityevaluators.com/casestudies/ethercombing/">htmll</a></li>
+        <li>A paper on DNS privacy related issues (<a href="https://doi.org/10.1002/poi3.195">paywall</a>,<a href="materials/dnspolicy-10.1002@poi3.195.pdf">local copy</a>)</li>
+       <li>A survey paper on attack surface definitions (<a href="https://doi.org/10.1016/j.infsof.2018.07.008">paywall</a>,<a href="materials/attack-surface--1-s2.0-S0950584918301514-main.pdf">local pdf</a>)</li>
+		<li>A post-mortem on the equifax hack (<a href="materials/Equifax-Report.pdf">local</a>,<a href="https://oversight.house.gov/wp-content/uploads/2018/12/Equifax-Report.pdf">original</a>
+		<li>" The Sorry State of TLS Security in Enterprise Interception Appliances" in 2018! <a href="https://arxiv.org/abs/1809.08729">arxiv.org</a>,<a href="materials/tls-mitm-boxed.pdf">local</a>).</li>
+		<li> The 2003 paper on rainbow tables (<a href="https://lasec.epfl.ch/pub/lasec/doc/Oech03.pdf">epfl.ch</a>,
+				<a href="materials/Oech03.pdf">local pdf</a>)</li>
+		<li>"Screaming Channels:" another side-channel - mixed digital/analogue chips exposing keys (<a href="http://s3.eurecom.fr/docs/ccs18_camurati_preprint.pdf">(no HTTPs!) pdf</a>,
+				<a href="materials/https://s3.eurecom.fr/docs/ccs18_camurati_preprint.pdf">local pdf</a>)</li>
+		<li>Nethammer: <a href="materials/nethammer-1805.04956.pdf">local pdf</a>(add link to original)</li>
+<li>The "Efail" PGP and S/MIME attack (<a href="https://efail.de/efail-attack-paper.pdf">efail.de</a>,<a href="materials/efail-attack-paper.pdf">local pdf</a>)</li>
+<li>The 1988 Internet worm (<a href="http://spaf.cerias.purdue.edu/tech-reps/823.pdf">purdue</a>,<a href="materials/spafford88internet.pdf">local</a>)</li>
+<li>The end-to-end argument in system design (<a href="http://web.mit.edu/Saltzer/www/publications/endtoend/endtoend.pdf">MIT</a>,<a href="materials/endtoend.pdf">local</a>)</li>
+<li>NDSS 2017 paper on TLS MitM box insecurity (<a href="https://jhalderm.com/pub/papers/interception-ndss17.pdf">remote</a>, <a href="materials/interception-ndss17.pdf">local</a>)</li>
+<li>Bleichenbacher's attack (<a href="http://link.springer.com/chapter/10.1007/BFb0055716">springer</a>,<a href="materials/bleichenbacher-pkcs.pdf">local</a>)</li>
+<li>DROWN attack (<a href="https://drownattack.com/drown-attack-paper.pdf">drownattack.com</a>,<a href="materials/drown-attack-paper.pdf">local</a>)</li>
+<li>Stagefright (<a href="https://www.exploit-db.com/docs/39527.pdf">exploit-db.com</a>,<a href="materials/stagefright.pdf">local<a>)</li>
+<li>Some DES history (<a href="https://www.princeton.edu/~ota/disk2/1987/8706/870612.PDF">remote</a>,<a href="materials/des-870612.pdf">local</a>) which is
+part of a <a href="https://www.princeton.edu/~ota/disk2/1987/8706.html">a book</a></li>
+<li>Attacking ASLR via javascript and an MMU - nice! (<a href="http://www.cs.vu.nl//~herbertb/download/papers/anc_ndss17.pdf">Author's site</a>,<a href="materials/anc_ndss17.pdf">local</a>)</li>
+<li>Not a paper, but an Intercept <a href="https://theintercept.com/2017/02/20/how-to-run-a-rogue-government-twitter-account-with-an-anonymous-email-address-and-a-burner-phone/">article</a> with a step-by-step on the "fun"
+required to create and operate a sorta-anonymous twitter a/c. </li>
+<li>A (long, 38pp;-) paper by a lawyer about how Internet technical standards
+might be quite telling - good if you're interested in this corner of nerdville;-) (<a href="https://poseidon01.ssrn.com/delivery.php?ID=582114003071118109104006093031125081029032054004040066067028092028071100106089012096122097062099041113051096017083114065113111126050004093022006016108092064092011019002077080118070103066027000022097106081109119109121119012022026002108092100071083124111&EXT=pdf">Original</a>,<a href="materials/SSRN-id2911978.pdf">local copy</a>)</li>
+
+<li>A real sha-1 collision! (<a href="https://shattered.io/">website</a>,
+<a href="materials/shattered.pdf">local copy of paper</a>) and the two
+colliding files: <a href="https://shattered.io/static/shattered-1.pdf">1</a>
+<a href="https://shattered.io/static/shattered-2.pdf">2</a>. (Note
+that those two aren't in my git repo - I didn't wanna play with git's 
+dependency on sha-1;-)</li>
+<li>RSA Key Extraction via Low-Bandwidth Acoustic Cryptanalysis (<a href="https://eprint.iacr.org/2013/857.pdf">eprint</a>,<a href="materials/rsa-acoustic-857.pdf">local</a>)</li>
+<li>Local copies of the papers for some recent notable attacks on CPUs: 
+		<a href="materials/meltdown.pdf">meltdown</a>,
+		<a href="materials/spectre.pdf">spectre</a>
+</li>
+<li>The <a href="materials/robot-1189.pdf">ROBOT</a> attack paper.</li>
+<li>An attack on machne learning for image processing: <a href="materials/patch-1712.09665.pdf">adversarial patches</a>, and
+		another one against machine learning called <a href="materials/foolbox-1712.04248.pdf">foolbox</a></li>
+<li>A CCC presentation on the 2010 Sony hack (<a href="https://events.ccc.de/congress/2010/Fahrplan/attachments/1780_27c3_console_hacking_2010.pdf">original</a>,<a href="materials/1780_27c3_console_hacking_2010.pdf">local</a>)</li>
+<li>The details of Galois-Counter Mode (<a href="https://eprint.iacr.org/2004/193.pdf">iacr version</a>,<a href="materials/gcm.pdf">local</a>) </li>
+<li>A comparison of some AEAD modes (<a href="https://www.fi.muni.cz/~xsvenda/docs/AE_comparison_ipics04.pdf">original</a>,<a href="materials/AE_comparison_ipics04.pdf">local</a>)</li>
+
+</ol>
+
+</body>
+</html>
+
